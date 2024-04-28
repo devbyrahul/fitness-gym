@@ -1,0 +1,225 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.navbar{
+    background-color: #613a3a;
+    color: white;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 64px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+img{
+    width: 167px;
+    height: 163px;
+    display: flex;
+    margin-right: auto;
+}
+.nav-list{
+    width: 100%;
+    background-color: #613a3a;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.join-us-button {
+    background-color: #c28712;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    padding: 5px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: x-large;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.join-us-button:hover{
+    background-color: #7c8595;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width: 39px;
+    background-color: white;
+    height: 5px;
+    margin: 7px 1px;
+    background-color: #ffa500;
+}
+
+/* 1st section */
+.bg{
+    width: 108.5%;
+}
+.dylan{
+    left: 45px;
+}
+#dylan{
+    right: -79px;
+}
+
+/* 2nd section */
+.black{
+    width: 108.5%;
+}
+.pexels{
+    right: -595px;
+    top: 94px;
+}
+.grey{
+    left: 16px;
+    top: 744px;
+}
+
+/* 3rd section */
+.ag{
+    width: 108.5%;
+}
+.ave{
+    right: 455px;
+    top: 1379px;
+}
+#ave{
+    left: 590px;
+    width: 476px;
+    top: 1355px;
+}
+
+/* 4th section */
+.star{
+    width: 108.5%;
+    height: 400px;
+}
+.logo{
+    top: 1957px;
+    width: 245px;
+    height: 237px;
+}
+.priority{
+    top: 2088px;
+    font-size: 25px;
+    width: 351px;
+    left: 28px;
+}
+.company{
+    top: 1983px;
+    font-size: 29px;
+    left: 392px;
+}
+.at{
+    top: 2034px;
+    font-size: 24px;
+    left: 423px;
+}
+.cr{
+    top: 2065px;
+    font-size: 24px;
+    left: 423px;
+}
+
+.contact{
+    top: 1983px;
+    font-size: 29px;
+    left: 554px;
+}
+.hf{
+    top: 2034px;
+    font-size: 24px;
+    left: 563px;
+}
+.pr{
+    top: 2065px;
+    font-size: 24px;
+    left: 563px;
+}
+.mb{
+    top: 2096px;
+    font-size: 24px;
+    left: 563px;
+}
+.more{
+    top: 1983px;
+    font-size: 29px;
+    left: 716px;
+}
+.pg{
+    top: 2034px;
+    font-size: 24px;
+    left: 718px;
+}
+.pl{
+    top: 2065px;
+    font-size: 24px;
+    left: 718px;
+}
+.mt{
+    top: 2096px;
+    font-size: 24px;
+    left: 718px;
+}
+.tags{
+    top: 1927px;
+    font-size: 39px;
+    right: -58px;
+}
+.ab_1{
+    top: 2000px;
+    right: 103px;
+}
+.workout{
+    top: 2000px;
+    right: -83px;
+}
+.nutrition{
+    top: 2058px;
+    right: 61px;
+}
+.gym{
+    top: 2058px;
+    right: -83px;
+}
+.boxing{
+    top: 2116px;
+    right: 61px;
+}
+.trainer{
+    top: 2116px;
+    right: -83px;
+}
+.facility{
+    top: 2174px;
+    right: -28px;
+}
+.footer{
+    width: 108.5%;
+    top: 2317px;
+}

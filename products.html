@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="CSS/Products CSS/products.css">
+    <link rel="stylesheet" media="(max-width: 320px)" href="CSS/Products CSS/products1.css">
+    <link rel="stylesheet" media="(min-width: 321px) and (max-width: 376px)" href="CSS/Products CSS/products2.css">
+    <link rel="stylesheet" media="(min-width: 377px) and (max-width: 426px)" href="CSS/Products CSS/products3.css">
+    <link rel="stylesheet" media="(min-width: 427px) and (max-width: 769px)" href="CSS/Products CSS/products4.css">
+    <link rel="stylesheet" media="(min-width: 770px) and (max-width: 1025px)" href="CSS/Products CSS/products5.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Protest+Riot&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,300..700;1,300..700&family=Ubuntu:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,300..700;1,300..700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar h-nav-resp">
+        <img class="img_logo" src="images/fitness logo.png" alt="">
+        <nav>
+            <ul class="nav-list v-class-resp">
+                <li><a href="index.html" class="home">Home</a></li>
+                <li><a href="classes.html" class="class" >Classes</a></li>
+                <li><a href="products.html" class="products">Products</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
+            </ul>
+        </nav>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <button class="join-us-button v-class-resp" onclick="openForm()">Join Us</button>
+    </header>
+    <div class="form-popup" id="myForm">
+        <form action="" class="form-container">
+            <h1 class="plan">SUBSCRIPTION PLAN</h1>
+            <label for="name" class="name">Full Name:</label>
+            <div>
+                <input type="text" name="myName" placeholder="Enter your Name" id="name">
+            </div>
+            <br>
+            <label for="email" class="email">Email:</label>
+            <div>
+                <input type="email" name="myemail" placeholder="Enter your email id" id="email">
+            </div>
+            <br>
+            <label for="number" class="number">Mobile Number:</label>
+            <div>
+                <input type="text" name="mynumber" placeholder="Enter Number" id="number">
+            </div>
+            <br>
+            <div>
+                <h2 class="duration">Duration:</h2> <input type="radio" name="monthly" id="monthly">
+                <h4 class="month_3">Monthly</h4> <input type="radio" name="monthly" id="yearly">
+                <h4 class="yearly_1">Yearly</h4>
+            </div>
+            <br>
+            <div>
+                <h2 class="mode">Mode of Payment:</h2> <input type="radio" name="cash" id="cash"> <h4 class="cash">Cash</h4> 
+                <input type="radio" name="cash" id ="online"> <h4 class="online">Online</h4>
+            </div>
+            <br>
+            <div>
+                <h2 class="train">Personal Training:</h2> <br> <input type="radio" name="train" id="required"><h4 class="required">Required</h4><br> <input type="radio"
+                    name="train" id="not_required"><h4 class="not_required">Not Required</h4>
+                <input type="checkbox" name="train" id="accept"><h4 class="accept">I accept all terms and conditions provided in this form.</h4>
+            </div>
+            <button type="submit" class="buy_btn">Buy Plan</button>
+            <button type="button" class="cancel_btn" onclick="closeForm()">X</button>
+        </form>
+    </div>
+    <div class="nutrition">
+        <img src="images/pexels-taryn-elliott-4099238.jpg" class="supplement" alt="">
+        <h1 class="and">Nutrition & Supplement</h1>
+        <div>
+            <img src="images/Whey.jpg" class="whey" alt="">
+            <h2 id="whey">Whey Protein</h2>
+        </div>
+
+        <div>
+            <img src="images/Multivitamins.jpg" class="multivitamins" alt="">
+            <h2 id="multivitamins">Multivitamins</h2>
+        </div>
+        <div>
+            <img src="images/preworkout.jpg" class="preworkout" alt="">
+            <h2 id="preworkout">Pre Workout</h2>
+        </div>
+
+        <div class="weights">
+            <img src="images/pexels-tima.jfif" class="tima" alt="">
+            <h1 class="machine">Weights & Machine</h1>
+            <div>
+                <img src="images/alina-chernysheva-JA2S6sJWleg-unsplash.jpg" class="alina" alt="">
+                <h2 id="alina">Treadmill</h2>
+            </div>
+            <div>
+                <img src="images/heidi-erickson-CPSjcuuV8E8-unsplash.jpg" class="heidi" alt="">
+                <h2 id="heidi">Free Weights</h2>
+            </div>
+            <div>
+                <img src="images/fitnish-media-5zrPlR-5lP0-unsplash.jpg" class="fitnish" alt="">
+                <h2 id="fitnish">Cable Machines</h2>
+            </div>
+
+            <div class="apparel">
+                <img src="images/keagan-henman-xPJYL0l5Ii8-unsplash.jpg" class="keagan" alt="">
+                <h1 class="merchandise">Apparel & Merchandise</h1>
+                <div>
+                    <img src="images/pexels-bamboo-ave-18991007.jpg" class="running" alt="">
+                    <h2 id="running">Running</h2>
+                </div>
+
+                <div>
+                    <img src="images/dylan-gillis-YJdCZba0TYE-unsplash.jpg" class="yoga" alt="">
+                    <h2 id="yoga">Yoga</h2>
+                </div>
+
+                <div>
+                    <img src="images/bruce-mars-WGN6ZEFEZbs-unsplash.jpg" class="zumba" alt="">
+                    <h2 id="zumba">Zumba</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- last section -->
+        <div class="star">
+            <img src="images/fitness logo.png" class="logo" alt="">
+            <h2 class="priority">Prioritize Your Fitness Goals with our world class services</h2>
+            <h2 class="company">COMPANY</h2>
+            <h3 class="at">About</h3>
+            <h3 class="cr">Careers</h3>
+            <h3 class="bl">Blogs</h3>
+            <h3 class="tc">Terms & Conditions</h3>
+
+            <h2 class="contact">CONTACT</h2>
+            <h3 class="hf">Help/FAQs</h3>
+            <h3 class="pr">Press</h3>
+            <h3 class="mb">Mobile</h3>
+
+            <h2 class="more">MORE</h2>
+            <h3 class="pg">Program</h3>
+            <h3 class="pl">Plans</h3>
+            <h3 class="mt">Method</h3>
+
+            <h2 class="tags">Popular Tags</h2>
+            <h3 class="ab">ABS</h3>
+            <h3 class="workout">Workout</h3>
+            <h3 class="nutrition_1">Nutrition</h3>
+            <h3 class="ab1">GYM</h3>
+            <h3 class="boxing">Boxing</h3>
+            <h3 class="trainer">Trainers</h3>
+            <h3 class="facility">Facilities</h3>
+            <img class="vector" src="images/Vector.png" alt="">
+            <img class="vector-1" src="images/Vector (1).png" alt="">
+            <img class="vector-2" src="images/Vector (2).png" alt="">
+            <img class="vector-3" src="images/Vector (3).png" alt="">
+            <!-- footer -->
+            <footer class="footer">CopyRight  All  Rights  Reserved</footer>
+            <footer class="footer1">Copyright @ 2023 Fitness Star Gym pvt ltd </footer>
+        </div>
+    </div>
+    <script src="JS/index.js"></script>
+    <script src="js/resp.js"></script>
+</body>
+</html>

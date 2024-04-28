@@ -1,0 +1,780 @@
+html,body{
+    width: 100%;
+}
+.navbar{
+    width: 104%;
+    height: 462px;
+    position: relative;
+    flex-direction: column;
+}
+.join-us-button{
+    flex-direction: column;
+    display: flex;
+    top: 260px;
+    position: absolute;
+    left: 117px;
+}
+.nav-list{
+    flex-direction: column;
+    display: flex;
+    top: 103px;
+    position: absolute;
+    left: 0px;
+}
+.h-nav-resp{
+    height: 72px;
+}
+.v-class-resp{
+    opacity: 0;
+}
+
+.img_logo{
+    top: -32px;
+    position: absolute;
+    left: 0px;
+}
+.burger{
+    display: block;
+}
+
+/* form join us */
+.form-popup{
+    display: none;
+    position: fixed;
+    top: 64px;
+    z-index: 2;
+}
+.form-container{
+    position: relative;
+    left: 57px;
+    top: 20px;
+    width: 289px;
+    height: 298px;
+}
+.cancel_btn{
+    top: -20px;
+    font-size: 11px;
+}
+.plan{
+    height: 23px;
+    font-size: 13px;
+}
+.name{
+    font-size: 15px;
+    top: 4px;
+    left: 9px;
+}
+#name{
+    width: 214px;
+    font-size: 9px;
+    height: 11px;
+    top: 20px;
+    left: 9px;
+}
+.email{
+    font-size: 15px;
+    top: 37px;
+    left: 9px;
+}
+#email{
+    width: 214px;
+    font-size: 9px;
+    height: 11px;
+    top: 54px;
+    left: 9px;
+}
+.number{
+    font-size: 15px;
+    top: 71px;
+    left: 9px;
+}
+#number{
+    width: 214px;
+    font-size: 9px;
+    height: 11px;
+    top: 88px;
+    left: 9px;
+}
+.duration{
+    top: 107px;
+    font-size: 15px;
+    left: 9px;
+}
+input[type='radio']{
+    width: 10px;
+    height: 10px;
+}
+#monthly{
+    top: 126px;
+    left: 9px;
+}
+.month_3{
+    top: 125px;
+    font-size: 11px;
+    left: 19px;
+}
+
+#yearly{
+    top: 126px;
+    left: 82px;
+}
+.yearly_1{
+    top: 125px;
+    font-size: 11px;
+    left: 93px;
+}
+
+
+.mode{
+    top: 140px;
+    font-size: 14px;
+    left: 9px;
+}
+.cash{
+    top: 160px;
+    font-size: 11px;
+    left: 20px;
+}
+#cash{
+    top: 160px;
+    left: 9px;
+}
+.online{
+    top: 160px;
+    font-size: 11px;
+    left: 93px;
+}
+#online{
+    top: 160px;
+    left: 82px;
+}
+
+
+.train{
+    top: 176px;
+    font-size: 13px;
+    left: 10px;
+}
+.required{
+    top: 194px;
+    font-size: 11px;
+    left: 20px;
+}
+#required{
+    top: 193px;
+    font-size: 9px;
+    left: 9px;
+}
+.not_required{
+    top: 208px;
+    font-size: 11px;
+    left: 20px;
+}
+#not_required{
+    top: 207px;
+    font-size: 9px;
+    left: 9px;
+}
+.accept{
+    top: 222px;
+    font-size: 11px;
+    left: 20px;
+    width: 162px;
+}
+#accept{
+    top: 222px;
+    font-size: 9px;
+    left: 9px;
+}
+input[type='checkbox']{
+    width: 10px;
+    height: 10px;
+}
+
+.buy_btn{
+    top: 258px;
+    font-size: 9px;
+    left: 98px;
+    width: 84px;
+    height: 25px;
+}
+
+
+/* fitness */
+.fitness{
+    width: 100%;
+    height: 416px;
+}
+.img1{
+    width: 104%;
+    height: 100%;
+}
+.cut{
+    display: none;
+}
+.download{
+    display: none;
+}
+.download_1{
+    display: none;
+}
+.download_2{
+    display: none;
+}
+
+/* content on first page */
+.revitalize{
+    width: 311px;
+    font-size: 32px;
+    border: none;
+    background-color: #ffffff00;
+    top: 171px;
+    left: 32px;
+    height: 49px;
+}
+.fall{
+    top: 228px;
+    left: 64px;
+    font-size: 17px;
+    color: white;
+    width: 266px;
+}
+.get_started{
+    top: 303px;
+    left: 127px;
+    width: 148px;
+}
+.free{
+    top: 366px;
+    left: 127px;
+    width: 148px;
+}
+/* 2nd Section */
+.nutrition_1{
+    height: 484px;
+    top: 487px;
+    position: absolute;
+    width: 104%;
+}
+
+.h1{
+    width: 310px;
+    left: -350px;
+    position: absolute;
+    top: -75px;
+    font-size: 28px;
+}
+.weight{
+    left: -125px;
+    position: absolute;
+    width: 85px;
+    top: 100px;
+    height: 100px;
+}
+#weight{
+    left: -115px;
+    position: absolute;
+    width: 162px;
+    top: 150px;
+    height: 36px;
+    font-size: 21px;
+}
+#vert1{
+    display: none;
+}
+.vert2{
+    display: none;
+}
+hr{
+    display: none;
+}
+
+.yoga{
+    left: -343px;
+    position: absolute;
+    width: 106px;
+    top: 520px;
+    height: 100px;
+}
+#yoga{
+    left: -333px;
+    position: absolute;
+    width: 129px;
+    top: -276px;
+    height: 36px;
+    font-size: 21px;
+}
+
+.cycling{
+    top: 844px;
+    position: absolute;
+    left: -918px;
+    width: 72px;
+    height: 93px;
+}
+#cycling{
+    left: -929px;
+    position: absolute;
+    width: 110px;
+    top: -332px;
+    height: 36px;
+    font-size: 21px;
+}
+.build{
+    top: 798px;
+    position: absolute;
+    left: 63px;
+    width: 72px;
+    height: 80px;
+}
+#build{
+    left: 70px;
+    position: absolute;
+    width: 182px;
+    top: -282px;
+    height: 36px;
+    font-size: 21px;
+}
+.hypertrophy{
+    top: 1104px;
+    position: absolute;
+    left: -519px;
+    width: 73px;
+    height: 81px;
+}
+#hypertrophy{
+    left: -523px;
+    position: absolute;
+    width: 150px;
+    top: -358px;
+    height: 36px;
+    font-size: 21px;
+}
+.running{
+    top: 1296px;
+    position: absolute;
+    left: -740px;
+    width: 73px;
+    height: 81px;
+}
+#running{
+    left: -746px;
+    position: absolute;
+    width: 113px;
+    top: -556px;
+    height: 36px;
+    font-size: 21px;
+}
+
+.sub1{
+    top: 500px;
+    position: absolute;
+}
+.subscription{
+    height: 856px;
+    top: 464px;
+    position: absolute;
+    width: 104%;
+}
+.subsh1{
+    left: 49px;
+    top: 493px;
+    width: 293px;
+    font-size: 33px;
+}
+.boxes{
+    top: 564px;
+    left: 101px;
+    background-color: #2320;
+    width: 186px;
+    height: 210px;
+}
+.boxes h2{
+    font-size: 24px;
+}
+.boxes h3{
+    font-size: 18px;
+    height: 42px;
+}
+
+.boxes2{
+    left: 101px;
+    top: 802px;
+    background-color: #2320;
+    width: 186px;
+    height: 210px;
+}
+.intermediate{
+    font-size: 24px;
+}
+.month2{
+    font-size: 24px;
+}
+.boxes2 h3{
+    font-size: 18px;
+    height: 42px;
+}
+.boxes3{
+    left: 101px;
+    top: 1039px;
+    background-color: #2320;
+    width: 186px;
+    height: 210px;
+}
+.advanced{
+    font-size: 24px;
+}
+.boxes3 h3{
+    font-size: 18px;
+    height: 42px;
+}
+
+.half{
+    top: 1818px;
+    position: absolute;
+    width: 104%;
+    height: 646px;
+}
+.imghalf{
+    width: 124%;
+    height: 29%;
+    top: -13px;
+    position: absolute;
+}
+.halfbox{
+    left: 44px;
+    width: 79%;
+    top: 90px;
+    height: 494px;
+}
+
+.gym2{
+    width: 60px;
+    height: 60px;
+    top: -32px;
+    position: absolute;
+    left: 23px;
+}
+.good{
+    top: 126px;
+    position: absolute;
+    font-size: 23px;
+    width: 227px;
+    left: 28px;
+}
+.hurts{
+    top: 65px;
+    position: absolute;
+    font-size: 13px;
+    width: 268px;
+    left: 14px;
+}
+.gym3{
+    width: 60px;
+    height: 60px;
+    top: 414px;
+    position: absolute;
+    left: -340px;
+}
+.sessions{
+    top: -25px;
+    position: absolute;
+    font-size: 23px;
+    width: 227px;
+    left: -340px;
+}
+.motivation{
+    top: 523px;
+    position: absolute;
+    font-size: 13px;
+    width: 268px;
+    left: -357px;
+}
+.gym4{
+    width: 60px;
+    height: 60px;
+    top: 232px;
+    position: absolute;
+    left: -676px;
+}
+.trainers{
+    top: 442px;
+    position: absolute;
+    font-size: 23px;
+    width: 227px;
+    left: -656px;
+}
+.change{
+    top: 332px;
+    position: absolute;
+    font-size: 13px;
+    width: 257px;
+    left: -675px;
+}
+
+
+/* stories */
+.stories{
+    top: 2463px;
+    position: absolute;
+    width: 104%;
+    height: 902px;
+}
+.success{
+    top: 22px;
+    left: 45px;
+    font-weight: bold;
+}
+.james{
+    top: 89px;
+    left: 15px;
+    width: 182px;
+    height: 245px;
+    border-radius: 29px;
+}
+.model1{
+    top: 103px;
+    width: 146px;
+    left: 225px;
+    font-size: 22px;
+}
+.bruce{
+    top: 357px;
+    left: 15px;
+    width: 182px;
+    height: 245px;
+    border-radius: 29px;
+}
+.model2{
+    top: 381px;
+    width: 146px;
+    left: 225px;
+    font-size: 22px;
+}
+.mark{
+    top: 627px;
+    left: 15px;
+    width: 182px;
+    height: 245px;
+    border-radius: 29px;
+}
+.model3{
+    top: 652px;
+    width: 146px;
+    left: 225px;
+    font-size: 22px;
+}
+
+/* 4th section */
+
+.star{
+    height: 387px;
+    width: 104%;
+    top: 3357px;
+    position: absolute;
+}
+.logo{
+    top: -24px;
+    left: 93px;
+}
+.priority{
+    top: 80px;
+    font-size: 14px;
+    width: 227px;
+    left: 91px;
+}
+.company{
+    top: 123px;
+    left: 10px;
+    font-size: 18px;
+    width: 11px;
+}
+.at{
+    top: 148px;
+    left: 18px;
+    font-size: 15px;
+    width: 11px;
+    font-family: none;
+}
+.cr{
+    top: 164px;
+    left: 18px;
+    font-size: 13px;
+    width: 11px;
+    font-family: none;
+}
+.bl{
+    top: 180px;
+    left: 18px;
+    font-size: 13px;
+    width: 11px;
+    font-family: none;
+}
+.tc{
+    top: 196px;
+    left: 18px;
+    font-size: 13px;
+    width: 121px;
+    font-family: none;
+}
+.contact{
+    top: 123px;
+    left: 162px;
+    font-size: 18px;
+    width: 11px;
+}
+.hf{
+    top: 148px;
+    left: 174px;
+    font-size: 13px;
+    width: 11px;
+    font-family: none;
+}
+.pr{
+    top: 164px;
+    left: 185px;
+    font-size: 13px;
+    width: 11px;
+    font-family: none;
+}
+.mb{
+    top: 180px;
+    left: 182px;
+    font-size: 13px;
+    width: 11px;
+    font-family: none;
+}
+.more{
+    top: 123px;
+    left: 324px;
+    font-size: 18px;
+    width: 11px;
+}
+.pg{
+    top: 148px;
+    left: 330px;
+    font-size: 13px;
+    width: 11px;
+    font-family: none;
+}
+.pl{
+    top: 164px;
+    left: 338px;
+    font-size: 13px;
+    width: 11px;
+    font-family: none;
+}
+.mt{
+    top: 180px;
+    left: 332px;
+    font-size: 13px;
+    width: 11px;
+    font-family: none;
+}
+
+/* tags */
+.tags{
+    top: 214px;
+    left: 126px;
+    font-size: 23px;
+    width: 160px;
+}
+.ab{
+    display: none;
+}
+.workout{
+    top: 257px;
+    left: 161px;
+    font-size: 15px;
+    width: 79px;
+    height: 25px;
+    border-radius: 5px;
+}
+.nutrition{
+    top: 257px;
+    left: 24px;
+    font-size: 15px;
+    width: 79px;
+    height: 25px;
+    border-radius: 5px;
+}
+.ab1{
+    top: 257px;
+    left: 297px;
+    font-size: 15px;
+    width: 79px;
+    height: 25px;
+    border-radius: 5px;
+}
+.boxing{
+    top: 295px;
+    left: 161px;
+    font-size: 15px;
+    width: 79px;
+    height: 25px;
+    border-radius: 5px;
+}
+.trainer{
+    top: 295px;
+    left: 24px;
+    font-size: 15px;
+    width: 79px;
+    height: 25px;
+    border-radius: 5px;
+}
+.facility{
+    top: 295px;
+    left: 297px;
+    font-size: 15px;
+    width: 79px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.vector{
+    width: 22px;
+    height: 22px;
+    top: 337px;
+    left: 44px;
+    display: block;
+    position: absolute;
+}
+.vector-1{
+    width: 22px;
+    height: 22px;
+    top: 337px;
+    left: 141px;
+    display: block;
+    position: absolute;
+}
+.vector-2{
+    width: 22px;
+    height: 22px;
+    top: 337px;
+    left: 243px;
+    display: block;
+    position: absolute;
+}
+.vector-3{
+    width: 22px;
+    height: 22px;
+    top: 337px;
+    left: 339px;
+    display: block;
+    position: absolute;
+}
+
+/* footer */
+.footer1{
+    top: 378px;
+    font-size: 12px;
+    width: 100%;
+    height: 17px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+}
+.footer{
+    display: none;
+}

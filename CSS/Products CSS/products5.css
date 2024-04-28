@@ -1,0 +1,260 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.navbar{
+    background-color: #613a3a;
+    color: white;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 64px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+img{
+    width: 167px;
+    height: 163px;
+    display: flex;
+    margin-right: auto;
+}
+.nav-list{
+    width: 100%;
+    background-color: #613a3a;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.join-us-button {
+    background-color: #c28712;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    padding: 5px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: x-large;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.join-us-button:hover{
+    background-color: #7c8595;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width: 39px;
+    background-color: white;
+    height: 5px;
+    margin: 7px 1px;
+    background-color: #ffa500;
+}
+
+/* 1st section */
+.supplement{
+    width: 111%;
+    height: 650px;
+}
+.and{
+    font-size: 48px;
+    left: 329px;
+}
+.whey{
+    left: 29px;
+    width: 256px;
+    height: 264px;
+}
+#whey{
+    left: 22px;
+    top: 471px;
+    width: 273px;
+    height: 59px;
+    font-size: 32px;
+}
+.multivitamins{
+    width: 256px;
+    height: 264px;
+    left: 433px;
+}
+#multivitamins{
+    top: 471px;
+    width: 273px;
+    height: 59px;
+    font-size: 32px;
+    left: 426px;
+}
+.preworkout{
+    width: 256px;
+    height: 264px;
+    left: 838px;
+}
+#preworkout{
+    top: 471px;
+    width: 273px;
+    height: 59px;
+    font-size: 32px;
+    left: 831px;
+}
+
+/* 2nd section */
+.tima{
+    width: 111%;
+    height: 650px;
+}
+.machine{
+    font-size: 48px;
+    left: 350px;
+    top: 655px;
+}
+.alina{
+    left: 29px;
+    width: 256px;
+    height: 264px;
+    top: 808px;
+}
+#alina{
+    left: 22px;
+    width: 273px;
+    height: 59px;
+    font-size: 32px;
+    top: 1064px;
+}
+
+.heidi{
+    width: 256px;
+    height: 264px;
+    left: 433px;
+    top: 808px;
+}
+#heidi{
+    top: 1064px;
+    left: 426px;
+    width: 273px;
+    height: 59px;
+    font-size: 32px;
+}
+
+.fitnish{
+    width: 256px;
+    height: 264px;
+    left: 838px;
+    top: 808px;
+}
+#fitnish{
+    top: 1064px;
+    width: 273px;
+    height: 59px;
+    font-size: 32px;
+    left: 831px;
+}
+
+/* 3rd section */
+.keagan{
+    width: 111%;
+    height: 585px;
+}
+.merchandise{
+    font-size: 48px;
+    left: 350px;
+}
+.running{
+    left: 29px;
+    width: 256px;
+    height: 264px;
+}
+#running{
+    left: 22px;
+    width: 273px;
+    height: 59px;
+    font-size: 32px;
+    top: 1700px;
+}
+.yoga{
+    width: 256px;
+    height: 264px;
+    left: 433px;
+}
+#yoga{
+    left: 426px;
+    width: 273px;
+    height: 59px;
+    font-size: 32px;
+    top: 1700px;
+}
+.zumba{
+    width: 256px;
+    height: 264px;
+    left: 838px;
+}
+#zumba{
+    width: 273px;
+    height: 59px;
+    font-size: 32px;
+    left: 831px;
+    top: 1700px;
+}
+
+/* 4th section */
+.star{
+    width: 111%;
+    height: 410px;
+}
+
+.tags{
+    top: 1859px;
+    right: -87px;
+    font-size: 35px;
+}
+.ab{
+    right: 71px;
+    top: 1931px;
+}
+.workout{
+    right: -109px;
+    top: 1931px;
+}
+.nutrition_1{
+    right: 30px;
+}
+.ab1{
+    right: -109px;
+}
+.boxing{
+    right: 30px;
+}
+.trainer{
+    right: -109px;
+}
+.facility{
+    right: -54px;
+}
+.footer{
+    width: 111%;
+    top: 2262px;
+}

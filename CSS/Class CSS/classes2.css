@@ -1,0 +1,541 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 471px;
+    position: relative;
+    flex-direction: column;
+}
+.join-us-button{
+    flex-direction: column;
+    display: flex;
+    top: 260px;
+    position: absolute;
+    left: 133px;
+}
+.nav-list{
+    flex-direction: column;
+    display: flex;
+    top: 103px;
+    position: absolute;
+    left: 161px;
+}
+.h-nav-resp{
+    height: 72px;
+}
+.v-class-resp{
+    opacity: 0;
+}
+
+.img_logo{
+    top: -32px;
+    position: absolute;
+    left: 0px;
+}
+.burger{
+    display: block;
+}
+
+
+/* form join us */
+.form-popup{
+    display: none;
+    position: fixed;
+    top: 64px;
+    z-index: 2;
+}
+.form-container{
+    position: relative;
+    left: 45px;
+    top: 20px;
+    width: 289px;
+    height: 298px;
+}
+.cancel_btn{
+    top: -20px;
+    font-size: 11px;
+}
+.plan{
+    height: 23px;
+    font-size: 13px;
+}
+.name{
+    font-size: 15px;
+    top: 0px;
+    left: 9px;
+}
+#name{
+    width: 214px;
+    font-size: 9px;
+    height: 11px;
+    top: 20px;
+    left: 9px;
+}
+.email{
+    font-size: 15px;
+    top: 33px;
+    left: 9px;
+}
+#email{
+    width: 214px;
+    font-size: 9px;
+    height: 11px;
+    top: 54px;
+    left: 9px;
+}
+.number{
+    font-size: 15px;
+    top: 67px;
+    left: 9px;
+}
+#number{
+    width: 214px;
+    font-size: 9px;
+    height: 11px;
+    top: 88px;
+    left: 9px;
+}
+.duration{
+    top: 107px;
+    font-size: 15px;
+    left: 9px;
+}
+input[type='radio']{
+    width: 10px;
+    height: 10px;
+}
+#monthly{
+    top: 126px;
+    left: 9px;
+}
+.month_3{
+    top: 121px;
+    font-size: 11px;
+    left: 19px;
+}
+
+#yearly{
+    top: 126px;
+    left: 82px;
+}
+.yearly_1{
+    top: 121px;
+    font-size: 11px;
+    left: 93px;
+}
+
+
+.mode{
+    top: 140px;
+    font-size: 14px;
+    left: 9px;
+}
+.cash{
+    top: 156px;
+    font-size: 11px;
+    left: 20px;
+}
+#cash{
+    top: 160px;
+    left: 9px;
+}
+.online{
+    top: 156px;
+    font-size: 11px;
+    left: 93px;
+}
+#online{
+    top: 160px;
+    left: 82px;
+}
+
+
+.train{
+    top: 176px;
+    font-size: 13px;
+    left: 10px;
+}
+.required{
+    top: 190px;
+    font-size: 11px;
+    left: 20px;
+}
+#required{
+    top: 193px;
+    font-size: 9px;
+    left: 9px;
+}
+.not_required{
+    top: 204px;
+    font-size: 11px;
+    left: 20px;
+}
+#not_required{
+    top: 207px;
+    font-size: 9px;
+    left: 9px;
+}
+.accept{
+    top: 218px;
+    font-size: 11px;
+    left: 20px;
+    width: 198px;
+}
+#accept{
+    top: 222px;
+    font-size: 9px;
+    left: 9px;
+}
+input[type='checkbox']{
+    width: 10px;
+    height: 10px;
+}
+
+.buy_btn{
+    top: 258px;
+    font-size: 9px;
+    left: 98px;
+    width: 84px;
+    height: 25px;
+}
+
+
+/* first section */
+.bg{
+    width: 100%;
+    height: 100%;
+}
+.ab{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.h1{
+    left: 46px;
+
+}
+.gym3{
+    top: 188px;
+    left: 96px;
+}
+.time_1{
+    left: 118px;
+    top: 395px;
+}
+.power{
+    left: 47px;
+    top: 436px;
+    width: 285px;
+}
+.gym2{
+    top: 536px;
+    left: 96px;
+}
+.time_2{
+    top: 739px;
+    left: 118px;
+}
+.mixed{
+    left: 47px;
+    top: 782px;
+    width: 285px;
+}
+.gym4{
+    top: 907px;
+    left: 96px;
+}
+.time_3{
+    left: 118px;
+    top: 1111px;
+}
+.level{
+    left: 47px;
+    top: 1150px;
+    width: 285px;
+}
+
+/*2nd part*/
+.training{
+    height: 523px;
+}
+.our{
+    top: 1396px;
+    width: 310px;
+    left: 51px;
+    font-size: 30px;
+    font-family: "Protest Riot", sans-serif;
+}
+.img_1{
+    top: 1484px;
+    width: 151px;
+    height: 210px;
+    left: 107px;
+}
+.john{
+    top: 1705px;
+    left: 80px;
+    width: 200px;
+}
+.img_2{
+    top: 1800px;
+    width: 151px;
+    height: 210px;
+    left: 107px;
+}
+.anais{
+    top: 2021px;
+    left: 80px;
+    width: 200px;
+}
+.img_3{
+    top: 2116px;
+    width: 151px;
+    height: 210px;
+    left: 107px;
+}
+.phil{
+    top: 2337px;
+    left: 80px;
+    width: 200px;
+}
+.corousel{
+    height: 884px;
+}
+.bruce{
+    top: 2410px;
+    height: 391px;
+}
+
+/* fitness */
+.star{
+    height: 355px;
+}
+.logo{
+    top: 2762px;
+    left: 85px;
+}
+.priority{
+    top: 2867px;
+    font-size: 12px;
+    width: 178px;
+    left: 107px;
+}
+.company{
+    top: 2905px;
+    left: 10px;
+    font-size: 18px;
+    width: 11px;
+}
+.at{
+    top: 2930px;
+    left: 18px;
+    font-size: 15px;
+    width: 11px;
+    font-family: none;
+}
+.cr{
+    top: 2946px;
+    left: 18px;
+    font-size: 13px;
+    width: 11px;
+    font-family: none;
+}
+.bl{
+    top: 2962px;
+    left: 20px;
+    font-size: 13px;
+    width: 11px;
+    font-family: none;
+}
+.contact{
+    top: 2905px;
+    left: 162px;
+    font-size: 18px;
+    width: 11px;
+}
+.hf{
+    top: 2930px;
+    left: 174px;
+    font-size: 13px;
+    width: 11px;
+    font-family: none;
+}
+.pr{
+    top: 2946px;
+    left: 185px;
+    font-size: 13px;
+    width: 11px;
+    font-family: none;
+}
+.mb{
+    top: 2962px;
+    left: 182px;
+    font-size: 13px;
+    width: 11px;
+    font-family: none;
+}
+
+.more{
+    top: 2905px;
+    left: 315px;
+    font-size: 18px;
+    width: 11px;
+}
+.pg{
+    top: 2930px;
+    left: 321px;
+    font-size: 13px;
+    width: 11px;
+    font-family: none;
+}
+.pl{
+    top: 2946px;
+    left: 329px;
+    font-size: 13px;
+    width: 11px;
+    font-family: none;
+}
+.mt{
+    top: 2962px;
+    left: 323px;
+    font-size: 13px;
+    width: 11px;
+    font-family: none;
+}
+
+/* tags */
+.tags{
+    top: 2984px;
+    left: 126px;
+    font-size: 23px;
+    width: 160px;
+}
+.ab_1{
+    display: none;
+}
+.workout{
+    top: 3027px;
+    left: 161px;
+    font-size: 15px;
+    width: 79px;
+    height: 25px;
+    border-radius: 5px;
+}
+.nutrition{
+    top: 3027px;
+    left: 24px;
+    font-size: 15px;
+    width: 79px;
+    height: 25px;
+    border-radius: 5px;
+}
+.gym{
+    top: 3027px;
+    left: 293px;
+    font-size: 15px;
+    width: 79px;
+    height: 25px;
+    border-radius: 5px;
+}
+.boxing{
+    top: 3065px;
+    left: 161px;
+    font-size: 15px;
+    width: 79px;
+    height: 25px;
+    border-radius: 5px;
+}
+.trainer{
+    top: 3065px;
+    left: 24px;
+    font-size: 15px;
+    width: 79px;
+    height: 25px;
+    border-radius: 5px;
+}
+.facility{
+    top: 3065px;
+    left: 293px;
+    font-size: 15px;
+    width: 79px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.vector{
+    width: 22px;
+    height: 22px;
+    top: 3107px;
+    left: 44px;
+    display: block;
+    position: absolute;
+}
+.vector-1{
+    width: 22px;
+    height: 22px;
+    top: 3107px;
+    left: 141px;
+    display: block;
+    position: absolute;
+}
+.vector-2{
+    width: 22px;
+    height: 22px;
+    top: 3107px;
+    left: 243px;
+    display: block;
+    position: absolute;
+}
+.vector-3{
+    width: 22px;
+    height: 22px;
+    top: 3107px;
+    left: 339px;
+    display: block;
+    position: absolute;
+}
+.footer1{
+    top: 3148px;
+    font-size: 12px;
+    width: 100%;
+    height: 17px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+}
+.footer{
+    display: none;
+}
+
+.imgslider{
+    background-size: 100% 100%; 
+    top: 2410px;
+    position: absolute;
+    width: 100%;
+    height: 391px;
+    animation: changeImage 10s linear infinite;
+  }
+  @keyframes changeImage {
+    0%{
+      background-image: url("../../images/bruce-mars-WGN6ZEFEZbs-unsplash.jpg");
+    }
+    25%{
+      background-image: url("../../images/bruce-mars-HHXdPG_eTIQ-unsplash.jpg");
+    }
+    50%{
+      background-image: url("../../images/couple-training-together-gym.jpg");
+    }
+    75%{
+      background-image: url("../../images/fitnish-media-5zrPlR-5lP0-unsplash.jpg");
+    }
+    100%{
+      background-image: url("../../images/hayley-kim-studios-eot-ka5dM7Q-unsplash.jpg");
+    }
+  }

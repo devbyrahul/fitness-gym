@@ -1,0 +1,586 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 474px;
+    position: relative;
+    flex-direction: column;
+}
+.join-us-button{
+    flex-direction: column;
+    display: flex;
+    top: 260px;
+    position: absolute;
+    left: 129px;
+}
+.nav-list{
+    flex-direction: column;
+    display: flex;
+    top: 103px;
+    position: absolute;
+    left: 162px;
+}
+.h-nav-resp{
+    height: 72px;
+}
+.v-class-resp{
+    opacity: 0;
+}
+.img_logo{
+    top: -32px;
+    position: absolute;
+    left: 0px;
+}
+.burger{
+    display: block;
+}
+
+
+
+
+.supplement{
+    height: 800px;
+}
+.and{
+    font-size: 23px;
+    width: 287px;
+    left: 56px;
+    top: 82px;
+}
+.whey{
+    width: 157px;
+    height: 156px;
+    left: 107px;
+    top: 133px;
+}
+#whey{
+    top: 304px;
+    width: 173px;
+    height: 34px;
+    left: 103px;
+    font-size: 18px;
+}
+.multivitamins{
+    width: 157px;
+    height: 156px;
+    left: 107px;
+    top: 370px;
+}
+#multivitamins{
+    top: 542px;
+    width: 173px;
+    height: 34px;
+    left: 103px;
+    font-size: 18px;
+}
+.preworkout{
+    width: 157px;
+    height: 156px;
+    left: 107px;
+    top: 609px;
+}
+#preworkout{
+    top: 780px;
+    width: 173px;
+    height: 34px;
+    left: 103px;
+    font-size: 18px;
+}
+.tima{
+    width: 100%;
+    height: 800px;
+}
+.machine{
+    top: 880px;
+    font-size: 24px;
+    width: 287px;
+    left: 71px;
+}
+.alina{
+    top: 938px;
+    width: 157px;
+    height: 156px;
+    left: 107px;
+}
+#alina{
+    top: 1110px;
+    width: 173px;
+    height: 34px;
+    left: 103px;
+    font-size: 18px;
+}
+.heidi{
+    top: 1180px;
+    width: 157px;
+    height: 156px;
+    left: 107px;
+}
+#heidi{
+    top: 1351px;
+    width: 173px;
+    height: 34px;
+    left: 103px;
+    font-size: 18px;
+}
+.fitnish{
+    top: 1419px;
+    width: 157px;
+    height: 156px;
+    left: 107px;
+}
+#fitnish{
+    top: 1590px;
+    width: 173px;
+    height: 34px;
+    left: 103px;
+    font-size: 18px;
+}
+
+/*apparel*/
+.keagan{
+    width: 100%;
+    height: 808px;
+}
+.merchandise{
+    top: 1688px;
+    font-size: 24px;
+    width: 300px;
+    left: 45px;
+}
+.running{
+    top: 1760px;
+    width: 157px;
+    height: 156px;
+    left: 107px;
+}
+#running{
+    top: 1929px;
+    width: 173px;
+    height: 34px;
+    left: 103px;
+    font-size: 18px;
+}
+.yoga{
+    top: 1994px;
+    width: 157px;
+    height: 156px;
+    left: 107px;
+}
+#yoga{
+    top: 2165px;
+    width: 173px;
+    height: 34px;
+    left: 103px;
+    font-size: 18px;
+}
+.zumba{
+    top: 2230px;
+    width: 157px;
+    height: 156px;
+    left: 107px;
+}
+#zumba{
+    top: 2403px;
+    width: 173px;
+    height: 34px;
+    left: 103px;
+    font-size: 18px;
+}
+
+/* star */
+.star{
+    height: 345px;
+    width: 100%;
+}
+.logo{
+    width: 125px;
+    height: 134px;
+    top: 2452px;
+    left: 122px;
+}
+.priority{
+    top: 2535px;
+    font-size: 12px;
+    width: 173px;
+    left: 102px;
+}
+.company{
+    top: 2575px;
+    left: 10px;
+    font-size: 14px;
+    width: 11px;
+}
+.at{
+    /* position: relative; */
+    top: 2600px;
+    left: 18px;
+    font-size: 15px;
+    width: 11px;
+    font-family: none;
+}
+.cr{
+    /* position: relative; */
+    top: 2616px;
+    left: 18px;
+    font-size: 13px;
+    width: 11px;
+    font-family: none;
+}
+.bl{
+    /* position: relative; */
+    top: 2632px;
+    left: 18px;
+    font-size: 13px;
+    width: 11px;
+    font-family: none;
+}
+.tc{
+    /* position: relative; */
+    top: 2648px;
+    left: 18px;
+    font-size: 13px;
+    width: 123px;
+    font-family: none;
+}
+.contact{
+    /* position: relative; */
+    top: 2575px;
+    left: 162px;
+    font-size: 14px;
+    width: 11px;
+}
+.hf{
+    /* position: relative; */
+    top: 2600px;
+    left: 174px;
+    font-size: 13px;
+    width: 11px;
+    font-family: none;
+}
+.pr{
+    /* position: relative; */
+    top: 2616px;
+    left: 185px;
+    font-size: 13px;
+    width: 11px;
+    font-family: none;
+}
+.mb{
+    /* position: relative; */
+    top: 2632px;
+    left: 182px;
+    font-size: 13px;
+    width: 11px;
+    font-family: none;
+}
+.more{
+    /* position: relative; */
+    top: 2575px;
+    left: 324px;
+    font-size: 14px;
+    width: 11px;
+}
+.pg{
+    /* position: relative; */
+    top: 2600px;
+    left: 323px;
+    font-size: 13px;
+    width: 11px;
+    font-family: none;
+}
+.pl{
+    /* position: relative; */
+    top: 2616px;
+    left: 331px;
+    font-size: 13px;
+    width: 11px;
+    font-family: none;
+}
+.mt{
+    /* position: relative; */
+    top: 2632px;
+    left: 325px;
+    font-size: 13px;
+    width: 11px;
+    font-family: none;
+}
+
+/* tags */
+.tags{
+    top: 2667px;
+    left: 126px;
+    font-size: 22px;
+    width: 145px;
+}
+.ab{
+    display: none;
+}
+.workout{
+    top: 2710px;
+    left: 161px;
+    /* position: relative; */
+    font-size: 13px;
+    width: 69px;
+    height: 25px;
+    border-radius: 5px;
+}
+.nutrition_1{
+    top: 2710px;
+    left: 24px;
+    /* position: relative; */
+    font-size: 13px;
+    width: 69px;
+    height: 25px;
+    border-radius: 5px;
+}
+.ab1{
+    top: 2710px;
+    left: 297px;
+    /* position: relative; */
+    font-size: 13px;
+    width: 69px;
+    height: 25px;
+    border-radius: 5px;
+}
+.boxing{
+    top: 2748px;
+    left: 24px;
+    /* position: relative; */
+    font-size: 13px;
+    width: 69px;
+    height: 25px;
+    border-radius: 5px;
+}
+.trainer{
+    top: 2748px;
+    left: 161px;
+    /* position: relative; */
+    font-size: 13px;
+    width: 69px;
+    height: 25px;
+    border-radius: 5px;
+}
+.facility{
+    top: 2748px;
+    left: 297px;
+    /* position: relative; */
+    font-size: 13px;
+    width: 69px;
+    height: 25px;
+    border-radius: 5px;
+}
+.vector{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 2784px;
+    left: 44px;
+    display: block;
+}
+.vector-1{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 2784px;
+    display: block;
+    left: 141px;
+}
+.vector-2{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 2784px;
+    display: block;
+    left: 243px;
+}
+.vector-3{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 2784px;
+    display: block;
+    left: 339px;
+}
+
+/* footer */
+.footer1{
+    top: 2815px;
+    position: absolute;
+    font-size: 12px;
+    width: 100%;
+    height: 24px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.footer{
+    display: none;
+}
+
+/* forms */
+.form-popup{
+    display: none;
+    position: fixed;
+    top: 64px;
+    z-index: 2;
+}
+.form-container{
+    position: relative;
+    left: 45px;
+    top: 20px;
+    width: 289px;
+    height: 298px;
+}
+.cancel_btn{
+    top: -20px;
+    font-size: 11px;
+}
+.plan{
+    height: 23px;
+    font-size: 13px;
+}
+.name{
+    font-size: 15px;
+    top: 0px;
+    left: 9px;
+}
+#name{
+    width: 214px;
+    font-size: 9px;
+    height: 11px;
+    top: 20px;
+    left: 9px;
+}
+.email{
+    font-size: 15px;
+    top: 33px;
+    left: 9px;
+}
+#email{
+    width: 214px;
+    font-size: 9px;
+    height: 11px;
+    top: 54px;
+    left: 9px;
+}
+.number{
+    font-size: 15px;
+    top: 67px;
+    left: 9px;
+}
+#number{
+    width: 214px;
+    font-size: 9px;
+    height: 11px;
+    top: 88px;
+    left: 9px;
+}
+.duration{
+    top: 107px;
+    font-size: 15px;
+    left: 9px;
+}
+input[type='radio']{
+    width: 10px;
+    height: 10px;
+}
+#monthly{
+    top: 126px;
+    left: 9px;
+}
+.month_3{
+    top: 121px;
+    font-size: 11px;
+    left: 19px;
+}
+
+#yearly{
+    top: 126px;
+    left: 82px;
+}
+.yearly_1{
+    top: 121px;
+    font-size: 11px;
+    left: 93px;
+}
+
+
+.mode{
+    top: 140px;
+    font-size: 14px;
+    left: 9px;
+}
+.cash{
+    top: 156px;
+    font-size: 11px;
+    left: 20px;
+}
+#cash{
+    top: 160px;
+    left: 9px;
+}
+.online{
+    top: 156px;
+    font-size: 11px;
+    left: 93px;
+}
+#online{
+    top: 160px;
+    left: 82px;
+}
+
+
+.train{
+    top: 176px;
+    font-size: 13px;
+    left: 10px;
+}
+.required{
+    top: 190px;
+    font-size: 11px;
+    left: 20px;
+}
+#required{
+    top: 193px;
+    font-size: 9px;
+    left: 9px;
+}
+.not_required{
+    top: 204px;
+    font-size: 11px;
+    left: 20px;
+}
+#not_required{
+    top: 207px;
+    font-size: 9px;
+    left: 9px;
+}
+.accept{
+    top: 218px;
+    font-size: 11px;
+    left: 20px;
+    width: 198px;
+}
+#accept{
+    top: 222px;
+    font-size: 9px;
+    left: 9px;
+}
+input[type='checkbox']{
+    width: 10px;
+    height: 10px;
+}
+
+.buy_btn{
+    top: 258px;
+    font-size: 9px;
+    left: 98px;
+    width: 84px;
+    height: 25px;
+}

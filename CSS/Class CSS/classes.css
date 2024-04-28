@@ -1,0 +1,838 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-size: auto; */
+    /* background-repeat: auto; */
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 1320px;
+    background-color: rgb(244 216 161);
+}
+header{
+    background-color: #613a3a;
+    color: white;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 64px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+img{
+    width: 167px;
+    height: 163px;
+    display: flex;
+    margin-right: auto;
+}
+.img1{
+    width: 100%;
+    height: 575px;
+    display: flex;
+    margin-right: auto;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.join-us-button {
+    background-color: #c28712;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    padding: 5px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: x-large;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+.join-us-button:hover{
+    background-color: #7c8595;
+}
+.class{
+    text-decoration: underline;
+    text-decoration-color: #ffa500;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width: 39px;
+    background-color: white;
+    height: 5px;
+    margin: 7px 1px;
+    background-color: #ffa500;
+}
+.bg{
+    height: 53%;
+}
+.ab{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    margin-right: auto;
+}
+.h1{
+    top: 83px;
+    position: absolute;
+    padding: 10px;
+    font-family: "Protest Riot", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    text-decoration-line: underline;
+    color: white;
+    left: 498px;
+    font-stretch: extra-expanded;
+}
+
+.gym3{
+    top: 257px;
+    position: absolute;
+    left: 143px;
+    width: 183px;
+    height: 185px;
+    border-radius: 32px;
+    border: 2px solid white;
+}
+.time_1{
+    top: 430px;
+    position: absolute;
+    color: white;
+    left: 165px;
+    font-size: 21px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.power{
+    top: 475px;
+    position: absolute;
+    color: white;
+    left: 132px;
+    background-color: #C53B3B;
+    width: 203px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.gym2{
+    top: 257px;
+    position: absolute;
+    left: 511px;
+    width: 183px;
+    height: 185px;
+    border-radius: 32px;
+    border: 2px solid white;
+}
+.time_2{
+    top: 430px;
+    position: absolute;
+    color: white;
+    left: 536px;
+    font-size: 21px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.mixed{
+    top: 475px;
+    position: absolute;
+    color: white;
+    left: 467px;
+    background-color: #C53B3B;
+    width: 286px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.gym4{
+    top: 257px;
+    position: absolute;
+    left: 879px;
+    width: 183px;
+    height: 185px;
+    border-radius: 32px;
+    border: 2px solid white;   
+}
+.time_3{
+    top: 430px;
+    position: absolute;
+    color: white;
+    left: 899px;
+    font-size: 21px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.level{
+    top: 475px;
+    position: absolute;
+    color: white;
+    left: 861px;
+    background-color: #C53B3B;
+    width: 237px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* Training */
+.training{
+    background-color: rgb(255, 255, 255);
+    height: 350px;
+}
+.our{
+    top: 720px;
+    position: absolute;
+    left: 476px;
+    font-size: 34px;
+    text-decoration-line: underline;
+}
+.img_1{
+    height: 297px;
+    width: 197px;
+    left: 145px;
+    position: absolute;
+    top: 924px;
+}
+.john{
+    color: white;
+    background-color: #4D4848;
+    width: 179px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 38px;
+    border-radius: 32px;
+    position: absolute;
+    left: 153px;
+    top: 1216px;
+    font-family: "Radio Canada", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.img_2{
+    height: 297px;
+    width: 197px;
+    left: 540px;
+    position: absolute;
+    top: 924px;
+}
+.anais{
+    color: white;
+    background-color: #4D4848;
+    width: 189px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 38px;
+    border-radius: 32px;
+    position: absolute;
+    left: 543px;
+    top: 1216px;
+    font-family: "Radio Canada", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.img_3{
+    height: 297px;
+    width: 197px;
+    right: 131px;
+    position: absolute;
+    top: 924px;
+}
+.phil{
+    color: white;
+    background-color: #4D4848;
+    width: 189px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 38px;
+    border-radius: 32px;
+    position: absolute;
+    right: 135px;
+    top: 1216px;
+    font-family: "Radio Canada", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* corousel */
+
+.corousel{
+    height: 500px;
+}
+.bruce{
+    top: 1371px;
+    position: absolute;
+    width: 100%;
+    height: 531px;
+}
+
+/* fitness */
+.star{
+    background-color: #545050;
+    height: 875px;
+}
+.logo{
+    width: 202px;
+    height: 170px;
+    left: 69px;
+    position: absolute;
+    top: 1985px;
+}
+.priority{
+    position: absolute;
+    top: 2085px;
+    color: #ffa500;
+    width: 289px;
+    left: 55px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.company{
+    top: 1972px;
+    position: absolute;
+    left: 403px;
+    color: white;
+    font-weight: 200;
+}
+.at{
+    top: 2012px;
+    position: absolute;
+    left: 432px;
+    color: white;
+    font-weight: 200;
+}
+.cr{
+    top: 2058px;
+    position: absolute;
+    left: 432px;
+    color: white;
+    font-weight: 200;
+}
+.bl{
+    top: 2104px;
+    position: absolute;
+    left: 432px;
+    color: white;
+    font-weight: 200;
+}
+
+.contact{
+    top: 1972px;
+    position: absolute;
+    left: 584px;
+    color: white;
+    font-weight: 200;
+}
+.hf{
+    top: 2012px;
+    position: absolute;
+    left: 596px;
+    color: white;
+    font-weight: 200;
+}
+.pr{
+    top: 2058px;
+    position: absolute;
+    left: 612px;
+    color: white;
+    font-weight: 200;
+}
+.mb{
+    top: 2104px;
+    position: absolute;
+    left: 612px;
+    color: white;
+    font-weight: 200;
+}
+
+.more{
+    top: 1972px;
+    position: absolute;
+    left: 757px;
+    color: white;
+    font-weight: 200;
+}
+.pg{
+    top: 2012px;
+    position: absolute;
+    left: 760px;
+    color: white;
+    font-weight: 200;
+}
+.pl{
+    top: 2058px;
+    position: absolute;
+    left: 760px;
+    color: white;
+    font-weight: 200;
+}
+.mt{
+    top: 2104px;
+    position: absolute;
+    left: 760px;
+    color: white;
+    font-weight: 200;
+}
+
+/* tags */
+.tags{
+    top: 1915px;
+    position: absolute;
+    right: 102px;
+    text-decoration: underline;
+    color: #ffa500;
+    font-family: "Radio Canada", sans-serif;
+    text-underline-position: under;
+    font-weight: 900;
+    font-size: 31px;
+} 
+.ab_1{
+    position: absolute;
+    right: 258px;
+    top: 1998px;
+    color: white;
+    background-color: #8D8383;
+    border-radius: 8px;
+    font-weight: 300;
+    font-size: 23px;
+    width: 102px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 49px;
+}
+.workout{
+    position: absolute;
+    right: 51px;
+    top: 1998px;
+    color: white;
+    background-color: #8D8383;
+    border-radius: 8px;
+    font-weight: 300;
+    font-size: 23px;
+    width: 179px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 49px;
+}
+.nutrition{
+    position: absolute;
+    right: 215px;
+    top: 2063px;
+    color: white;
+    background-color: #FFA500;
+    border-radius: 8px;
+    font-weight: 300;
+    font-size: 23px;
+    width: 143px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 49px;
+}
+.gym{
+    position: absolute;
+    right: 83px;
+    top: 2063px;
+    color: white;
+    background-color: #8D8383;
+    border-radius: 8px;
+    font-weight: 300;
+    font-size: 23px;
+    width: 102px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 49px;
+}
+.boxing{
+    position: absolute;
+    right: 215px;
+    top: 2128px;
+    color: white;
+    background-color: #8D8383;
+    border-radius: 8px;
+    font-weight: 300;
+    font-size: 23px;
+    width: 143px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 49px;
+}
+.trainer{
+    position: absolute;
+    right: 67px;
+    top: 2128px;
+    color: white;
+    background-color: #FFA500;
+    border-radius: 8px;
+    font-weight: 300;
+    font-size: 23px;
+    width: 132px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 49px;
+}
+
+.facility{
+    position: absolute;
+    right: 123px;
+    top: 2193px;
+    color: white;
+    background-color: #ffa500;
+    border-radius: 8px;
+    font-weight: 300;
+    font-size: 23px;
+    width: 180px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 49px;
+}
+.vector{
+    display: none;
+}
+.vector-1{
+    display: none;
+}
+.vector-2{
+    display: none;
+}
+.vector-3{
+    display: none;
+}
+/* footer */
+.footer1{
+    top: 2312px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 29px;
+    font-weight: 600;
+    background-color: #ffa500;
+    width: 100%;
+    height: 53px;
+    display: none;
+}
+
+.footer{
+    top: 2378px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 29px;
+    font-weight: 600;
+    background-color: #ffa500;
+    width: 100%;
+    height: 53px;
+}
+
+.form-popup {
+    display: none;
+    position: fixed;   
+    top: 64px;
+    z-index: 2;
+}
+
+.form-container{
+    height: 700px;
+    width: 700px;
+    background-color: #c28712;
+    left: 250px;
+    position: fixed;
+}
+.plan{
+    background-color: grey;
+    width: 100%;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    top: -22px;
+    position: relative;
+}
+
+.name{
+    left: 28px;
+    position: absolute;
+    top: 61px;
+    font-size: 23px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+#name{
+    width: 460px;
+    left: 29px;
+    position: absolute;
+    top: 88px;
+    height: 21px;
+}
+
+/* email */
+.email{
+    left: 28px;
+    position: absolute;
+    top: 121px;
+    font-size: 23px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+#email{
+    width: 460px;
+    left: 29px;
+    position: absolute;
+    top: 148px;
+    height: 21px;
+}
+
+/* number */
+.number{
+    left: 28px;
+    position: absolute;
+    top: 181px;
+    font-size: 23px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+#number{
+    width: 460px;
+    left: 29px;
+    position: absolute;
+    top: 207px;
+    height: 21px;
+}
+
+/* duration */
+.duration{
+    left: 28px;
+    position: absolute;
+    top: 216px;
+    font-size: 23px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+#monthly{
+    left: 28px;
+    position: absolute;
+    top: 265px;
+}
+.month_3{
+    left: 50px;
+    position: absolute;
+    top: 232px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.yearly_1{
+    right: 101px;
+    position: absolute;
+    top: 233px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+#yearly{
+    right: 165px;
+    position: absolute;
+    top: 265px;
+}
+
+/* mode of payment */
+
+.mode{
+    left: 28px;
+    position: absolute;
+    top: 270px;
+    font-size: 23px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+#cash{
+    left: 28px;
+    position: absolute;
+    top: 319px;
+}
+.cash{
+    left: 50px;
+    position: absolute;
+    top: 286px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.online{
+    right: 99px;
+    position: absolute;
+    top: 286px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+#online{
+    right: 165px;
+    position: absolute;
+    top: 319px;
+}
+.train{
+    left: 28px;
+    position: absolute;
+    top: 326px;
+    font-size: 23px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#required{
+    left: 28px;
+    position: absolute;
+    top: 375px;
+}
+.required{
+    left: 50px;
+    position: absolute;
+    top: 346px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.not_required{
+    left: 50px;
+    position: absolute;
+    top: 373px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+#not_required{
+    left: 28px;
+    position: absolute;
+    top: 402px;
+}
+.accept{
+    left: 50px;
+    position: absolute;
+    top: 401px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    width: 383px;
+}
+#accept{
+    left: 28px;
+    position: absolute;
+    top: 429px;
+}
+
+.buy_btn{
+    width: 149px;
+    height: 41px;
+    border-radius: 10px;
+    border-color: #FFA500;
+    background-color: #524D4D;
+    color: white;
+    top: 421px;
+    font-size: 19px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    position: absolute;
+    right: 35px;
+}
+.cancel_btn{
+    top: 0px;
+    position: absolute;
+    right: 0px;
+    font-size: 17px;
+}
+.imgslider{
+    background-size: 100% 100%; 
+    top: 1371px;
+    position: absolute;
+    width: 100%;
+    height: 531px;
+    animation: changeImage 10s linear infinite;
+  }
+  @keyframes changeImage {
+    0%{
+      background-image: url("../../images/bruce-mars-WGN6ZEFEZbs-unsplash.jpg");
+    }
+    25%{
+      background-image: url("../../images/bruce-mars-HHXdPG_eTIQ-unsplash.jpg");
+    }
+    50%{
+      background-image: url("../../images/couple-training-together-gym.jpg");
+    }
+    75%{
+      background-image: url("../../images/fitnish-media-5zrPlR-5lP0-unsplash.jpg");
+    }
+    100%{
+      background-image: url("../../images/hayley-kim-studios-eot-ka5dM7Q-unsplash.jpg");
+    }
+  }

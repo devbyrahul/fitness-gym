@@ -1,0 +1,320 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.navbar{
+    background-color: #613a3a;
+    color: white;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 64px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+img{
+    width: 167px;
+    height: 163px;
+    display: flex;
+    margin-right: auto;
+}
+.nav-list{
+    width: 100%;
+    background-color: #613a3a;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.join-us-button {
+    background-color: #c28712;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    padding: 5px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: x-large;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.join-us-button:hover{
+    background-color: #7c8595;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width: 39px;
+    background-color: white;
+    height: 5px;
+    margin: 7px 1px;
+    background-color: #ffa500;
+}
+
+/* 1st section */
+
+.bg{
+    width: 100%;
+    height: 100%;
+}
+.ab{
+    width: 143%;
+    height: 65%;
+}
+.h1{
+    width: 420px;
+    font-size: 76px;
+    left: 355px;
+    top: 46px;
+}
+.gym3{
+    width: 277px;
+    height: 277px;
+    left: 23px;
+}
+.time_1{
+    top: 522px;
+    left: 68px;
+    font-size: 28px;
+}
+.power{
+    top: 564px;
+    width: 302px;
+    height: 65px;
+    font-size: 35px;
+    left: 13px;
+}
+
+.gym2{
+    width: 277px;
+    height: 277px;
+    left: 411px;
+}
+.time_2{
+    top: 522px;
+    font-size: 28px;
+    left: 460px;
+}
+.mixed{
+    top: 564px;
+    width: 368px;
+    height: 65px;
+    font-size: 35px;
+    left: 367px;
+}
+
+.gym4{
+    width: 277px;
+    height: 277px;
+    left: 794px;
+}
+.time_3{
+    top: 522px;
+    font-size: 28px;
+    width: 199px;
+    left: 838px;
+}
+.level{
+    top: 564px;
+    width: 320px;
+    height: 65px;
+    font-size: 35px;
+    left: 778px;
+}
+
+
+/* 2nd section */
+.our{
+    top: 871px;
+    font-family: "Protest Riot", sans-serif;
+    font-size: 46px;
+    width: 522px;
+    left: 381px;
+}
+.img_1{
+    top: 1011px;
+    width: 230px;
+    height: 330px;
+    left: 91px;
+}
+.john{
+    left: 89px;
+    top: 1329px;
+    width: 235px;
+    font-size: 30px;
+    height: 49px;
+}
+.img_2{
+    top: 1011px;
+    width: 230px;
+    height: 330px;
+    left: 451px;
+}
+.anais{
+    top: 1329px;
+    width: 235px;
+    font-size: 30px;
+    height: 49px;
+    left: 451px;
+}
+.img_3{
+    top: 1011px;
+    width: 230px;
+    height: 330px;
+    left: 800px;
+}
+.phil{
+    top: 1329px;
+    width: 235px;
+    font-size: 30px;
+    height: 49px;
+    left: 800px;
+}
+
+.bruce{
+    display: none;
+}
+
+/* 3rd section */
+.imgslider{
+    top: 1445px;
+    width: 143%;
+    height: 110%;
+}
+.training{
+    width: 143%;
+    height: 0px;
+}
+
+
+/* last section */
+.star{
+    height: 512px;
+    width: 143%;
+}
+.logo{
+    width: 213px;
+    height: 197px;
+    left: 69px;
+    position: absolute;
+}
+.at{
+    font-size: 23px;
+    left: 427px;
+}
+.cr{
+    font-size: 23px;
+    left: 427px;
+}
+.bl{
+    font-size: 23px;
+    left: 427px;
+}
+
+.contact{
+    left: 543px;
+}
+.hf{
+    font-size: 21px;
+    left: 546px;
+}
+.pr{
+    left: 564px;
+    font-size: 23px;
+}
+.mb{
+    left: 562px;
+    font-size: 23px;
+}
+.more{
+    left: 686px;
+}
+.pg{
+    left: 685px;
+    font-size: 21px;
+}
+.pl{
+    left: 685px;
+    font-size: 21px;
+}
+.mt{
+    left: 685px;
+    font-size: 21px;
+}
+
+
+.tags{
+    left: 800px;
+    color: #ffa500;
+    font-size: 37px;
+    width: 264px;
+    top: 1933px;
+}
+
+.ab_1{
+    right: -106px;
+    font-size: 28px;
+    height: 49px;
+}
+.workout{
+    right: -307px;
+    font-size: 28px;
+    height: 49px;
+}
+.nutrition{
+    right: -147px;
+    font-size: 28px;
+    height: 49px;
+}
+.gym{
+    right: -307px;
+    font-size: 28px;
+    height: 49px;
+}
+.boxing{
+    right: -147px;
+    font-size: 28px;
+    height: 49px;
+}
+.trainer{
+    right: -307px;
+    font-size: 28px;
+    height: 49px;
+}
+.facility{
+    right: -239px;
+    font-size: 28px;
+    height: 49px;
+}
+
+/* footer */
+.footer{
+    top: 2300px;
+    width: 143%;
+}

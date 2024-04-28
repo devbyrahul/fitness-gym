@@ -1,0 +1,1037 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 140px;
+}
+.img_logo{
+    width: 339px;
+    height: 339px;
+}
+img{
+    width: 167px;
+    height: 163px;
+    display: flex;
+    margin-right: auto;
+}
+.nav-list{
+    font-size: 71px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.join-us-button {
+    background-color: #c28712;
+    border-radius: 21px;
+    color: rgb(0, 0, 0);
+    padding: 5px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 66px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.join-us-button:hover{
+    background-color: #7c8595;
+}
+
+.home{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width: 39px;
+    background-color: white;
+    height: 5px;
+    margin: 7px 1px;
+    background-color: #ffa500;
+}
+
+
+.fitness{
+    width: 100%;
+    height: 575px;
+}
+.img1{
+    top: 138px;
+    width: 103%;
+    height: 1661px;
+    display: flex;
+    margin-right: auto;
+    position: absolute;
+}
+.cut{
+    background-color: #ffa500;
+    height: 44px;
+    width: 227px;
+    top: 635px;
+    position: absolute;
+    border: 0.8px solid white;
+    transform: skew(-56deg);
+    left: -38px;
+}
+.download{
+    height: 21px;
+    width: 21px;
+    opacity: 0.9;
+    top: 648px;
+    position: absolute;
+    left: 26px;
+}
+.download_1{
+    height: 21px;
+    width: 21px;
+    opacity: 0.9;
+    top: 648px;
+    position: absolute;
+    left: 64px;
+}
+.download_2{
+    height: 21px;
+    width: 21px;
+    opacity: 0.9;
+    top: 648px;
+    position: absolute;
+    left: 103px;
+}
+.img_revitalize{
+    position: absolute;
+    top: 81px;
+    left: 155px;
+    font-size: 66px;
+    color: white;
+    font-family: "Radio Canada", sans-serif;
+    width: 410px;
+    height: 367px;
+    border: 2px solid #1e1d1d82;
+    background-color: #1e1d1dbf;
+    z-index: 2;
+}
+.revitalize{
+    position: absolute;
+    top: 81px;
+    left: 155px;
+    font-size: 66px;
+    color: white;
+    font-family: "Radio Canada", sans-serif;
+    width: 410px;
+    height: 367px;
+    z-index: 2;
+}
+.fall{
+    position: absolute;
+    top: 284px;
+    color: #D7D0D0;
+    font-size: 14px;
+    left: 164px;
+    width: 314px;
+}
+.get_started{
+    position: absolute;
+    top: 361px;
+    left: 163px;
+    width: 185px;
+    height: 55px;
+    border-radius: 9px;
+    font-size: 23px;
+    font-family: "Radio Canada", sans-serif;
+    background-color: #ffa500;
+    color: white;
+}
+.free{
+    position: absolute;
+    top: 361px;
+    left: 363px;
+    width: 185px;
+    height: 55px;
+    border-radius: 9px;
+    font-size: 23px;
+    font-family: "Radio Canada", sans-serif;
+    background-color: #4D4848;
+    color: white;
+}
+
+
+
+.nutrition_1{    
+    background-color: rgb(244 216 161);
+    width: 100%;
+    height: 700px;
+}
+
+.h1{
+    margin: 85px 376px;
+    width: 46%;
+    padding: 10px;
+    font-family: "Protest Riot", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: xxx-large;
+    text-decoration-line: underline;
+}
+.weight{
+    margin: -23px 189px;
+}
+
+#weight{
+    margin: 23px 154px;
+    font-size: xx-large;
+}
+#vert1{
+    height: 500px;
+    margin: -247px 450px;
+    width: 2.1px;
+    background: #FFA500;
+}
+.vert2{
+    height: 500px;
+    margin: -498px 858px;
+    width: 2.1px;
+    background-color: #FFA500;
+}
+hr{
+    margin: 231px 74px;
+    border: 1.3px solid #ffa500;
+}
+.yoga{
+    margin: -448px 575px;
+    position: sticky;
+}
+#yoga{
+    margin: 448px 548px;
+    font-size: xx-large;
+    width: 20%;
+}
+.cycling{
+    margin: -633px 982px;
+}
+#cycling{
+    margin: 633px 988px;
+    font-size: xx-large;
+    width: 20%;
+}
+
+.build{
+    margin: -585px 181px;
+}
+#build{
+    margin: 585px 135px;
+    font-size: xx-large;
+    width: 20%;
+}
+.hypertrophy{
+    margin: -772px 585px;
+}
+#hypertrophy{
+    margin: 769px 566px;
+    font-size: xx-large;
+    width: 20%;
+}
+.running{
+    margin: -961px 982px;
+}
+#running{
+    margin: 967px 988px;
+    font-size: xx-large;
+    width: 20%;
+}
+
+.sub1{
+    width: 100%;
+    height: 660px;
+    display: flex;
+}
+/* subscription */
+.subscription{
+    width: 100%;
+    height: 660px;
+    display: flex;
+    -webkit-filter: blur(3px);
+}
+
+.subsh1{
+    color: #ffa500;
+    position: absolute;
+    top: 1397px;
+    left: 493px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+}
+.boxes{
+    color: #ffa500;
+    position: absolute;
+    left: 108px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 230px;
+    text-align: center;
+    height: 302px;
+    top: 1591px;
+    background-color: #232020;
+}
+.boxes h2{
+    font-size: 31px;
+}
+
+.month{
+    margin: -19px 0px;
+    color: #B5AAAA;
+    height: 65px;
+}
+
+.boxes h3{
+    height: 80px;
+    margin: 4px 0px;
+    color: #A49B9B;
+}
+
+.basic{
+    height: 27px;
+}
+
+.btn{
+    width: 149px;
+    height: 41px;
+    border-radius: 10px;
+    border-color: #FFA500;
+    background-color: #524D4D;
+    color: white;
+    font-size: 19px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.boxes2{
+    color: #ffa500;
+    position: absolute;
+    left: 500px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 230px;
+    text-align: center;
+    height: 302px;
+    top: 1591px;
+    background-color: #232020;
+}
+
+.intermediate{
+    height: 27px;
+    font-size: 31px;
+}
+
+.month2{
+    font-size: 31px;
+}
+
+.boxes2 h3{
+    height: 80px;
+    margin: 4px 0px;
+    color: #A49B9B;
+}
+.boxes3{
+    color: #ffa500;
+    position: absolute;
+    left: 900px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 230px;
+    text-align: center;
+    height: 302px;
+    top: 1591px;
+    background-color: #232020;
+}
+
+.advanced{
+    height: 27px;
+    font-size: 31px;
+}
+
+.boxes3 h3{
+    height: 80px;
+    margin: 4px 0px;
+    color: #A49B9B;
+}
+.half{
+    background-color: #FFA500;
+    height: 577px;
+}
+.imghalf{
+    width: 111%;
+    height: 326px;
+    transform: scale(0.9);
+    object-fit: inherit;
+    margin: -18px -70px;
+}
+.halfbox{
+    background-color: #ffffff;
+    position: absolute;
+    left: 139px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 1000px;
+    text-align: center;
+    height: 302px;
+    top: 2230px;
+}
+
+.gym2{
+    margin: 55px 99px;
+    width: 91px;
+    height: 82px;
+}
+.good{
+    margin: -40px 26px;
+    display: flex;
+}
+.hurts{
+    margin: 50px 26px;
+    display: flex;
+}
+
+.gym3{
+    margin: -246px 459px;
+    width: 102px;
+    height: 94px;
+}
+.sessions{
+    margin: 263px 401px;
+    display: flex;
+    width: 349px;
+}
+.motivation{
+    margin: -252px 397px;
+    display: flex;
+    width: 300px;
+}
+
+.gym4{
+    margin: 79px 797px;
+    width: 102px;
+    height: 94px;
+}
+.trainers{
+    margin: -66px 718px;
+    display: flex;
+    width: 349px;
+}
+.change{
+    margin: 77px 703px;
+    display: flex;
+    width: 300px;
+}
+
+
+/* stories */
+.stories{
+    background-color: #000000;
+    height: 617px;
+}
+.success{
+    color: #ffa500;
+    top: 2605px;
+    position: absolute;
+    left: 487px;
+    font-family: "Radio Canada", sans-serif;
+    font-size: 39px;
+    font-weight: 300;
+}
+.james{
+    top: 2713px;
+    position: absolute;
+    width: 234px;
+    height: 346px;
+    left: 79px;
+}
+.model1{
+    color: #ffa500;
+    top: 3069px;
+    position: absolute;
+    left: 87px;
+    font-weight: 400;
+}
+
+.bruce{
+    top: 2713px;
+    position: absolute;
+    width: 289px;
+    height: 346px;
+    left: 454px;
+}
+.model2{
+    color: #ffa500;
+    top: 3069px;
+    position: absolute;
+    left: 454px;
+    font-weight: 400;
+    width: 314px;
+}
+
+.mark{
+    top: 2713px;
+    position: absolute;
+    width: 289px;
+    height: 346px;
+    left: 864px;
+}
+.model3{
+    color: #ffa500;
+    top: 3069px;
+    position: absolute;
+    left: 865px;
+    font-weight: 400;
+    width: 314px;
+}
+
+/* 4th section */
+.star{
+    background-color: #545050;
+    height: 488px;
+}
+.logo{
+    width: 202px;
+    height: 170px;
+    left: 69px;
+    position: absolute;
+    top: 3277px;
+}
+.priority{
+    position: absolute;
+    top: 3377px;
+    color: #ffa500;
+    width: 289px;
+    left: 55px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.company{
+    top: 3264px;
+    position: absolute;
+    left: 403px;
+    color: white;
+    font-weight: 200;
+}
+.at{
+    top: 3318px;
+    position: absolute;
+    left: 432px;
+    color: white;
+    font-weight: 200;
+}
+.cr{
+    top: 3357px;
+    position: absolute;
+    left: 432px;
+    color: white;
+    font-weight: 200;
+}
+.bl{
+    top: 3404px;
+    position: absolute;
+    left: 432px;
+    color: white;
+    font-weight: 200;
+}
+.tc{
+    top: 3450px;
+    position: absolute;
+    left: 432px;
+    color: white;
+    font-weight: 200;
+}
+
+.contact{
+    top: 3264px;
+    position: absolute;
+    left: 584px;
+    color: white;
+    font-weight: 200;
+}
+.hf{
+    top: 3318px;
+    position: absolute;
+    left: 596px;
+    color: white;
+    font-weight: 200;
+}
+.pr{
+    top: 3357px;
+    position: absolute;
+    left: 612px;
+    color: white;
+    font-weight: 200;
+}
+.mb{
+    top: 3404px;
+    position: absolute;
+    left: 612px;
+    color: white;
+    font-weight: 200;
+}
+
+.more{
+    top: 3264px;
+    position: absolute;
+    left: 760px;
+    color: white;
+    font-weight: 200;
+}
+.pg{
+    top: 3318px;
+    position: absolute;
+    left: 760px;
+    color: white;
+    font-weight: 200;
+}
+.pl{
+    top: 3357px;
+    position: absolute;
+    left: 760px;
+    color: white;
+    font-weight: 200;
+}
+.mt{
+    top: 3404px;
+    position: absolute;
+    left: 760px;
+    color: white;
+    font-weight: 200;
+}
+
+/* tags */
+.tags{
+    top: 3216px;
+    position: absolute;
+    right: 102px;
+    text-decoration: underline;
+    color: #ffa500;
+    font-family: "Radio Canada", sans-serif;
+    text-underline-position: under;
+    font-weight: 900;
+    font-size: 31px;
+}
+.ab{
+    position: absolute;
+    right: 258px;
+    top: 3290px;
+    color: white;
+    background-color: #8D8383;
+    border-radius: 8px;
+    font-weight: 300;
+    font-size: 23px;
+    width: 102px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 49px;
+}
+.workout{
+    position: absolute;
+    right: 51px;
+    top: 3290px;
+    color: white;
+    background-color: #8D8383;
+    border-radius: 8px;
+    font-weight: 300;
+    font-size: 23px;
+    width: 179px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 49px;
+}
+.nutrition{
+    position: absolute;
+    right: 215px;
+    top: 3355px;
+    color: white;
+    background-color: #FFA500;
+    border-radius: 8px;
+    font-weight: 300;
+    font-size: 23px;
+    width: 143px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 49px;
+}
+.ab1{
+    position: absolute;
+    right: 67px;
+    top: 3355px;
+    color: white;
+    background-color: #8D8383;
+    border-radius: 8px;
+    font-weight: 300;
+    font-size: 23px;
+    width: 102px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 49px;
+}
+.boxing{
+    position: absolute;
+    right: 215px;
+    top: 3420px;
+    color: white;
+    background-color: #8D8383;
+    border-radius: 8px;
+    font-weight: 300;
+    font-size: 23px;
+    width: 143px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 49px;
+}
+
+.trainer{
+    position: absolute;
+    right: 67px;
+    top: 3420px;
+    color: white;
+    background-color: #FFA500;
+    border-radius: 8px;
+    font-weight: 300;
+    font-size: 23px;
+    width: 132px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 49px;
+}
+
+.facility{
+    position: absolute;
+    right: 123px;
+    top: 3485px;
+    color: white;
+    background-color: #ffa500;
+    border-radius: 8px;
+    font-weight: 300;
+    font-size: 23px;
+    width: 180px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 49px;
+}
+
+.vector{
+    display: none;
+}
+.vector-1{
+    display: none;
+}
+.vector-2{
+    display: none;
+}
+.vector-3{
+    display: none;
+}
+
+
+/* footer */
+.footer1{
+    top: 2312px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 29px;
+    font-weight: 600;
+    background-color: #ffa500;
+    width: 100%;
+    height: 53px;
+    display: none;
+}
+.footer{
+    top: 3670px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 29px;
+    font-weight: 600;
+    background-color: #ffa500;
+    width: 100%;
+    height: 53px;
+}
+
+
+/* form join us button */
+.form-popup {
+    display: none;
+    position: fixed;   
+    top: 64px;
+    z-index: 2;
+}
+
+.form-container{
+    height: 700px;
+    width: 700px;
+    background-color: #c28712;
+    left: 250px;
+    position: fixed;
+}
+.plan{
+    background-color: grey;
+    width: 100%;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    top: -22px;
+    position: relative;
+}
+
+.name{
+    left: 28px;
+    position: absolute;
+    top: 61px;
+    font-size: 23px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+#name{
+    width: 460px;
+    left: 29px;
+    position: absolute;
+    top: 88px;
+    height: 21px;
+}
+
+/* email */
+.email{
+    left: 28px;
+    position: absolute;
+    top: 121px;
+    font-size: 23px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+#email{
+    width: 460px;
+    left: 29px;
+    position: absolute;
+    top: 148px;
+    height: 21px;
+}
+
+/* number */
+.number{
+    left: 28px;
+    position: absolute;
+    top: 181px;
+    font-size: 23px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+#number{
+    width: 460px;
+    left: 29px;
+    position: absolute;
+    top: 207px;
+    height: 21px;
+}
+
+/* duration */
+.duration{
+    left: 28px;
+    position: absolute;
+    top: 238px;
+    font-size: 23px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+#monthly{
+    left: 28px;
+    position: absolute;
+    top: 265px;
+}
+.month_3{
+    left: 50px;
+    position: absolute;
+    top: 258px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.yearly_1{
+    right: 101px;
+    position: absolute;
+    top: 258px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+#yearly{
+    right: 165px;
+    position: absolute;
+    top: 265px;
+}
+
+/* mode of payment */
+
+.mode{
+    left: 28px;
+    position: absolute;
+    top: 295px;
+    font-size: 23px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+#cash{
+    left: 28px;
+    position: absolute;
+    top: 319px;
+}
+.cash{
+    left: 50px;
+    position: absolute;
+    top: 315px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.online{
+    right: 99px;
+    position: absolute;
+    top: 315px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+#online{
+    right: 165px;
+    position: absolute;
+    top: 319px;
+}
+.train{
+    left: 28px;
+    position: absolute;
+    top: 351px;
+    font-size: 23px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#required{
+    left: 28px;
+    position: absolute;
+    top: 375px;
+}
+.required{
+    left: 50px;
+    position: absolute;
+    top: 371px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.not_required{
+    left: 50px;
+    position: absolute;
+    top: 398px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+#not_required{
+    left: 28px;
+    position: absolute;
+    top: 402px;
+}
+.accept{
+    left: 50px;
+    position: absolute;
+    top: 426px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    width: 383px;
+}
+#accept{
+    left: 28px;
+    position: absolute;
+    top: 429px;
+}
+
+.buy_btn{
+    width: 149px;
+    height: 41px;
+    border-radius: 10px;
+    border-color: #FFA500;
+    background-color: #524D4D;
+    color: white;
+    top: 446px;
+    font-size: 19px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    position: absolute;
+    right: 35px;
+}
+.cancel_btn{
+    top: 0px;
+    position: absolute;
+    right: 0px;
+    font-size: 17px;
+}

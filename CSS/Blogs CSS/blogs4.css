@@ -1,0 +1,167 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.navbar{
+    background-color: #613a3a;
+    color: white;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 64px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+img{
+    width: 167px;
+    height: 163px;
+    display: flex;
+    margin-right: auto;
+}
+.nav-list{
+    width: 100%;
+    background-color: #613a3a;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.join-us-button {
+    background-color: #c28712;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    padding: 5px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: x-large;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.join-us-button:hover{
+    background-color: #7c8595;
+}
+
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width: 39px;
+    background-color: white;
+    height: 5px;
+    margin: 7px 1px;
+    background-color: #ffa500;
+}
+
+/* 1st section */
+.bg{
+    width: 148%;
+    height: 52%;
+}
+.dylan{
+    width: 62%;
+    height: 103%;
+}
+#dylan{
+    left: 581px;
+    font-size: 30px;
+}
+
+/* 2nd section */
+.black{
+    width: 148%;
+}
+.pexels{
+    width: 602px;
+    right: -511px;
+    top: 87px;
+}
+.grey{
+    width: 598px;
+    top: 774px;
+}
+
+/* 3rd section */
+.ag{
+    width: 148%;
+    height: 53%;
+}
+.ave{
+    width: 62%;
+    height: 103%;
+    left: 82px;
+}
+#ave{
+    left: 581px;
+    font-size: 30px;
+}
+
+/* 4th section */
+.star{
+    width: 148%;
+    height: 462px;
+}
+.tags{
+    left: 869px;
+    width: 260px;
+    font-size: 36px;
+}
+.logo{
+    width: 213px;
+    height: 197px;
+    left: 69px;
+    position: absolute;
+}
+.priority{
+    font-size: 23px;
+    width: 354px;
+}
+.ab_1{
+    left: 841px;
+}
+.workout{
+    left: 953px;
+}
+.nutrition{
+    left: 841px;
+}
+.gym{
+    left: 1030px;
+}
+.boxing{
+    left: 841px;
+}
+.trainer{
+    left: 999px;
+}
+.facility{
+    left: 900px;
+}
+.footer{
+    width: 148%;
+}
